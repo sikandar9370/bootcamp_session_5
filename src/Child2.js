@@ -3,9 +3,7 @@ import CounterReducer from './CounterReducer';
 
 const Child2 = () => {
 
-    let [state, dispatch] = useReducer(CounterReducer, 10);
-
-    console.log(state);
+    let [state, dispatch] = useReducer(CounterReducer, 1);
 
     return(
         <div>

@@ -3,7 +3,7 @@ import Child from './Child';
 import Child2 from './Child2';
 
 
-const Parent = () => {
+const Parent = (props) => {
     return (
         <div>
             <Child/>
